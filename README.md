@@ -1,2 +1,2 @@
 # html-js-videoPlayer
-Simple html/js video player for educationa purposes.
+Simple html/js video player for educational purposes.
