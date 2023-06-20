@@ -5,5 +5,7 @@ body {
 }
 
 video {
-    width: 400px;
+    display: block;
+    margin-top: 1rem;
+    width: 700px;
 }
