@@ -1,14 +1,14 @@
 const videoPlayer = document.getElementById('videoPlayerId');
 
-const sources = [
+const sourceInfo = [
   { src: 'videos/video01.ogg', type: 'video/ogg' },
   { src: 'videos/video01.mp4', type: 'video/mp4' }
 ];
 
-for (const source of sources) {
+for (const info of sourceInfo) {
   const sourceElement = document.createElement('source');
-  sourceElement.src = source.src;
-  sourceElement.type = source.type;
+  sourceElement.src = info.src;
+  sourceElement.type = info.type;
   
   videoPlayer.appendChild(sourceElement);
 }
